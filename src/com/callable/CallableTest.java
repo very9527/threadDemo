@@ -6,6 +6,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+/**
+ * 能够返回参数的线程
+ * @author very9527
+ *
+ */
 public class CallableTest {
 	public static void main(String[] args) {
 		ExecutorService threadPool = Executors.newSingleThreadExecutor();
@@ -13,7 +18,6 @@ public class CallableTest {
 
 			@Override
 			public String call() throws Exception {
-				// TODO Auto-generated method stub
 				return "Hello World";
 			}
 		});
