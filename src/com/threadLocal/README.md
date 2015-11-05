@@ -7,6 +7,6 @@
 
 >A from Thread-1 get data : 569072708
 
->A from Thread-0 get data : -1844461750
+>B from Thread-0 get data : -1844461750
 
->A from Thread-1 get data : 569072708
+>B from Thread-1 get data : 569072708
