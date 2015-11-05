@@ -22,7 +22,7 @@ public class CallableTest {
 			}
 		});
 		try {
-			System.out.println("print return : " + future.get());
+			System.out.println("print thread return : " + future.get());
 		} catch (InterruptedException | ExecutionException e) {
 			e.printStackTrace();
 		}
