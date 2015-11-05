@@ -35,7 +35,7 @@ public class ThreadLocalDemo {
 	static class B {
 		public void get() {
 			int data = (int)threadLocal.get();
-			System.out.println("A from " + Thread.currentThread().getName() + " get data : " + data);
+			System.out.println("B from " + Thread.currentThread().getName() + " get data : " + data);
 		}
 	}
 }
