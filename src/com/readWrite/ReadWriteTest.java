@@ -11,18 +11,18 @@ public class ReadWriteTest {
 			new Thread(new Runnable(){
 				@Override
 				public void run() {
-					while(true)
+					while(true) {
 						queue.get();
-					
+					}
 				}
 			}).start();
 			
 			new Thread(new Runnable(){
 				@Override
 				public void run() {
-					while(true)
-					queue.put(new Random().nextInt(10000));
-					
+					while(true) {
+						queue.put(new Random().nextInt(10000));
+					}
 				}
 			}).start();
 		}
